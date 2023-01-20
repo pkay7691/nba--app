@@ -19,3 +19,32 @@ form div {
   margin: 1em;
   display: inline-block;
 }
+
+
+/* scoreboard styling */
+
+#scoreboard {
+  display: flex;
+  width: 100%;
+
+
+
+
+}
+
+.game-container {
+  border: solid;
+  width: 15%;
+  padding: 3px;
+
+}
+
+.team-container-final, .team-container-inprogress {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.time-container {
+  display: flex;
+}
