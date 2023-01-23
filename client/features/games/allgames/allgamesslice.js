@@ -9,7 +9,7 @@ const TOKEN = 'token';
 /*
   THUNKS
 */
-export const fetchAllGamesAsync = createAsyncThunk('fetchGames', async () => {
+export const fetchAllGamesAsync = createAsyncThunk('fetchAllGames', async () => {
   try {
     const {data} = await axios.get('https://www.balldontlie.io/api/v1/games');
     return data
